@@ -133,7 +133,7 @@ footer > div {
 }
 
 .navbar {
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 1rem !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
