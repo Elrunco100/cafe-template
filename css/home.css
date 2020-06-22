@@ -276,7 +276,7 @@ footer h3,
   }
 
   .navbar-light .navbar-nav .nav-link {
-    color: #111;
+    color: #111 !important;
     padding: 20px 0;
   }
 
