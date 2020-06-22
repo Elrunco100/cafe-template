@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/home.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
     <title>Cafe | Home</title>
 </head>
 
@@ -17,9 +19,7 @@
     <header class="d-flex flex-column">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top header" id="myHeader">
             <div class="container">
-                <a class="navbar-brand" id="header-logo logo-link" href="#">
-                    <img src="./images/about/logo.svg" alt="" class="img-fluid" id="logo">
-                </a>
+                <a class="navbar-brand" href="#" id="logo-link"><img src="images/about/logo.svg" id="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" id="nav-toggler">
                     <span class="navbar-toggler-icon" id="navbar-toggler-icon"></span>
@@ -46,13 +46,13 @@
             </div>
         </nav>
 
-        <section class="d-flex justify-content-center align-items-center text-center margin-top">
-            <div class="align-self-center">
-                <h2 class="gold-text">Welcome to KofiCafe</h2>
-                <div class="mt-5">
-                    <a href="" class="gold-filled-btn mr-2 ">Order a Cup</a><a href=""
-                        class="transparent-btn ml-2 text-capitalize">View
-                        Menu</a>
+        <section class="main-heading">
+            <div>
+                <h1 class="gold-text text-center">Welcome to KofiCafe</h1>
+                <div class="mt-5 d-flex justify-content-center">
+                    <a href=""><button class="btn gold-filled-btn btn-lg"> Order A Cup</button></a>
+                    <a href="#featured-menu" class="ml-2"><button class="btn transparent-btn btn-lg"> View
+                            Menu</button></a>
                 </div>
             </div>
         </section>
@@ -60,62 +60,68 @@
 
     <main>
         <section class="text-center light-black py-5">
-            <h2 class="text-capitalize gold-text ">about us</h2>
-            <h4 class="text-white my-5 text-center center-text px-3">KofiCafe is known for its creamy taste, smells and
-                how it makes you feel alert and happy after grabbing a cup.
-                When it comes to varieties of flavours, KofiCafe got you
-                covered.</h4>
-            <a href="" class="transparent-btn ml-2 text-capitalize">learn more</a>
+            <h2 class="gold-text ">About Us</h2>
+            <div class="center-text">
+                <p class="text-white text-center pb-1">KofiCafe is known for its creamy taste, smells
+                    and
+                    how it makes you feel alert and happy after grabbing a cup.
+                    When it comes to varieties of flavours, KofiCafe got you
+                    covered.</p>
+            </div>
+            <a href="./about.html">
+                <button class="btn transparent-btn btn-lg">Learn More</button></a>
         </section>
 
-        <section class="text-center deep-black py-5">
+        <section class="text-center deep-black py-5" id="featured-menu">
+
             <h2 class="gold-text text-capitalize mb-4">featured menu</h2>
-            <div class="d-flex flex-lg-row flex-column justify-content-center">
-                <div class="px-3 py-sm-3">
-                    <img src="./images/irish-coffee.png" class="img-fluid px-sm-5 px-lg-0" alt="irish coffee">
-                    <h3 class="gold-text text-capitalize">irish coffee</h3>
-                    <h3 class="text-white">$4</h3>
-                </div>
-                <div class="px-3 py-sm-3">
-                    <img src="./images/Caffe-Americano.png" class="img-fluid px-sm-5 px-lg-0" alt="caffe americano">
-                    <h3 class="gold-text text-capitalize">caffe americano</h3>
-                    <h3 class="text-white">$2</h3>
-                </div>
-                <div class="px-3 py-sm-3">
-                    <img src="./images/filter-coffee.png" class="img-fluid px-sm-5 px-lg-0" alt="filter-coffee">
-                    <h3 class="gold-text text-capitalize">filter coffee</h3>
-                    <h3 class="text-white">$4.5</h3>
+            <div class="container">
+                <div class="row m-0">
+                    <div class="col-sm-4 text-center">
+                        <img src="./images/irish-coffee.png" class="img-fluid px-sm-5 px-lg-0" alt="irish coffee">
+                        <h4 class="gold-text mt-3 text-capitalize">irish coffee</h4>
+                        <h4 class="text-white mb-3">$4</h4>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <img src="./images/Caffe-Americano.png" class="img-fluid px-sm-5 px-lg-0" alt="caffe americano">
+                        <h4 class="gold-text mt-3 text-capitalize">caffe americano</h4>
+                        <h4 class="text-white mb-3">$2</h4>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <img src="./images/filter-coffee.png" class="img-fluid px-sm-5 px-lg-0" alt="filter-coffee">
+                        <h4 class="gold-text mt-3 text-capitalize">filter coffee</h4>
+                        <h4 class="text-white mb-3">$4.5</h4>
+                    </div>
                 </div>
             </div>
-            <a href="" class="gold-filled-btn mt-5"> view menu</a>
+            <a href="" class="mt-2">
+                <button class="btn transparent-btn btn-lg"> View More</button></a>
         </section>
 
         <section class="text-center light-black py-5">
-            <!-- <div class="d-flex flex-column">
-                <div class="px-1">
-                    <img src="./images/Rectangle-25.png" class="img-fluid px-sm-3 py-3" alt="">
-                    <img src="./images/Rectangle-47.png" class="img-fluid px-sm-3 py-3" alt="">
-                    <img src="./images/Rectangle-43.png" class="img-fluid px-sm-3 py-3" alt="">
-                    <img src="./images/Rectangle-39.png" class="img-fluid px-sm-3 py-3" alt="">
-                </div>
-                <div class="px-1">
-                    <img src="./images/Rectangle-25.png" class="img-fluid px-sm-3 py-3" alt="">
-                    <img src="./images/Rectangle-47.png" class="img-fluid px-sm-3 py-3" alt="">
-                    <img src="./images/Rectangle-43.png" class="img-fluid px-sm-3 py-3" alt="">
-                    <img src="./images/Rectangle-39.png" class="img-fluid px-sm-3 py-3" alt="">
-                </div>
-            </div> -->
             <div class="container">
-                <div class="gridshow">
-                    <img src="./images/Rectangle-25.png" class="gridimage" alt="">
-                    <img src="./images/Rectangle-47.png" class="gridimage" alt="">
-                    <img src="./images/Rectangle-43.png" class="gridimage" alt="">
-                    <img src="./images/Rectangle-39.png" class="gridimage" alt="">
-                    <img src="./images/Rectangle-25.png" class="gridimage" alt="">
-                    <img src="./images/Rectangle-47.png" class="gridimage" alt="">
-                    <img src="./images/Rectangle-43.png" class="gridimage" alt="">
-                    <img src="./images/Rectangle-39.png" class="gridimage" alt="">
+                <div class="row mb-md-3 mb-1">
+                    <div class="col-md-3 col-6 mb-md-0 p-md-2 p-1 mb-1"><img src="./images/Rectangle-25.png" alt="">
+                    </div>
+                    <div class="col-md-3 col-6 mb-md-0 p-md-2 p-1 mb-1"><img src="./images/Rectangle-47.png" alt="">
+                    </div>
+                    <div class="col-md-3 col-6 mb-md-0 p-md-2 p-1 mb-1"><img src="./images/Rectangle-43.png" alt="">
+                    </div>
+                    <div class="col-md-3 col-6 mb-md-0 p-md-2 p-1 mb-1"><img src="./images/Rectangle-39.png" alt="">
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-3 col-6 mb-md-0 p-md-2 p-1 mb-1"><img src="./images/Rectangle-25.png" alt="">
+                    </div>
+                    <div class="col-md-3 col-6 mb-md-0 p-md-2 p-1 mb-1"><img src="./images/Rectangle-47.png" alt="">
+                    </div>
+                    <div class="col-md-3 col-6 mb-md-0 p-md-2 p-1 mb-1"><img src="./images/Rectangle-43.png" alt="">
+                    </div>
+                    <div class="col-md-3 col-6 mb-md-0 p-md-2 p-1 mb-1"><img src="./images/Rectangle-39.png" alt="">
+                    </div>
+                </div>
+                <!-- </div> -->
+
             </div>
         </section>
     </main>
