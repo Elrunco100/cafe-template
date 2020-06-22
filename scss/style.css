@@ -1,10 +1,10 @@
 body {
-  font-family: 'Open Sans' !important;
+  font-family: "Open Sans" !important;
 }
 
 a:hover {
   text-decoration: none !important;
-  color: #F8BE2A !important;
+  color: #f8be2a !important;
 }
 
 h1 {
@@ -38,7 +38,7 @@ header {
 }
 
 header::after {
-  content: '';
+  content: "";
   background-color: rgba(0, 0, 0, 0.59);
   position: absolute;
   width: 100%;
@@ -64,7 +64,7 @@ footer {
 }
 
 footer::after {
-  content: '';
+  content: "";
   background-color: rgba(0, 0, 0, 0.59);
   position: absolute;
   width: 100%;
@@ -76,36 +76,36 @@ footer::after {
 .gold-filled-btn {
   border-radius: 5px;
   padding: 10px 20px;
-  background-color: #F8BE2A;
-  color: #FFFFFF;
+  background-color: #f8be2a;
+  color: #ffffff;
   border: none;
   outline: none;
   display: inline-block !important;
 }
 
 .gold-filled-btn:hover {
-  color: #1C1C1C !important;
+  color: #1c1c1c !important;
 }
 
 .transparent-btn {
   border-radius: 5px;
   padding: 10px 20px;
-  border: 1px solid #F8BE2A;
-  color: #F8BE2A;
+  border: 1px solid #f8be2a;
+  color: #f8be2a;
   background: transparent;
   outline: none;
 }
 
 .transparent-btn:hover {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 
 .gold-text {
-  color: #F8BE2A !important;
+  color: #f8be2a !important;
 }
 
 .light-black {
-  background-color: #1C1C1C !important;
+  background-color: #1c1c1c !important;
 }
 
 .deep-black {
@@ -142,7 +142,7 @@ footer::after {
 }
 
 .show-nav {
-  background-color: #F8BE2A !important;
+  background-color: #f8be2a !important;
 }
 
 #header-logo {
