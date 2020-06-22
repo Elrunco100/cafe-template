@@ -224,6 +224,10 @@ footer h3,
   margin: 0 10px;
 }
 
+.container-fluid {
+  padding: 0 !important;
+}
+
 @media (max-width: 768px) {
   .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28248, 190, 42 %29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
@@ -245,6 +249,11 @@ footer h3,
 
   #logo {
     width: 100px;
+  }
+
+  .info {
+    padding: 0;
+    font-size: 0.95rem !important;
   }
 
   .navbar-light .navbar-brand {
@@ -295,5 +304,15 @@ footer h3,
 
   p {
     font-size: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .bottom-details {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    padding-top: 30px !important;
   }
 }
